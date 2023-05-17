@@ -1,5 +1,25 @@
 # Fitness-app
-Full Stack Course
+An academic group project that creates a fitness web application using Node.js, Express.js, and Mongoose.
+
+## Usage
+- Config the MongoDB connection to your own
+
+- Then enter the following commands under the project directory on Terminal:
+	- npm install
+	- node server.js
+
+## Functions
+User roles:
+- admin
+- customer
+<br>
+
+Admins:
+- View transactions in admin panel
+
+Users:
+- Book a fitness lesson for free if they have the membership subscription
+- Pay to book a fitness lesson for free if they do not have the membership subscription
 
 ## Schemas
 
@@ -32,7 +52,7 @@ Lesson = {
 ```javascript
 Transaction = {
 	"primary-key": "1jd830sx08l3",
-	"name": "Yeung",
+	"name": "Test",
 	"confirmation-number": "124902847103",
 	"date": "2023-02-09",
 	"lessons": [],
