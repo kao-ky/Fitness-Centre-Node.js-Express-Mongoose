@@ -32,7 +32,7 @@ User = {
 	"type": "customer"						//or "admin"
 	"subscription": true,
 	"transactions": [],						//paid
-	"cart": [],								//wishlist
+	"cart": [],							//wishlist
 }
 ```
 
