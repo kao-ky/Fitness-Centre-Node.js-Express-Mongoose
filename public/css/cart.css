@@ -1,0 +1,65 @@
+main > h2 {
+    padding: 30px 0;
+}
+
+#checkout-form {
+    margin: 0 auto 50px auto;
+}
+
+#checkout-form input{
+    font-size: 15px;
+}
+
+#checkout-form img {
+    height: 30px;
+    margin: auto 5px;
+}
+
+#membership-status {
+    display: flex;
+    margin: 0 auto;
+    background-color: #B0B0B0;
+    cursor: default;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#membership-status + h3 {
+    margin-top: 40px;
+}
+
+.cart-item-container {
+    display: flex;
+}
+
+.course-details {
+    margin-left: 10px;
+    width: 75%;
+    text-align: left;
+}
+
+.cart-item-container span {
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.cart-item-container button {
+    background-color: red;
+}
+
+.cart-item-container button:hover {
+    background-color: #9a9a9a;
+}
+
+#checkout-form table th, #checkout-form table td {
+    text-align: right;
+}
+
+#checkout-form table th {
+    width: 85%;
+}
+
+#btn-container button{
+    width: 50%;
+}

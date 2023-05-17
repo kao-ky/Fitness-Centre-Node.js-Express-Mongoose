@@ -1,0 +1,25 @@
+#home-section {
+    position: relative;
+}
+
+#home-section img{
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+}
+
+#home-section #banner-caption {
+    position: absolute;
+    padding: 10px;
+    width: 20%;
+    right: 5%;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 900;
+    font-size: 3vw;
+    color: white;
+}
+
+#banner-caption a {
+    color: white;
+}

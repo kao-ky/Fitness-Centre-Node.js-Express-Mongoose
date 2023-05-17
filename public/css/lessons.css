@@ -1,0 +1,39 @@
+#lessons-section {
+    margin: 30px auto;
+    width: 800px;
+    border: 1px solid lightgray;
+}
+
+#lessons-section > h1, #lessons-section > h2 {
+    margin: 10px auto 15px auto;
+}
+
+#lessons-section > h2 {
+    /* font-style: italic; */
+    color: blue;
+}
+
+.lesson {
+    display: flex;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+.lesson > *{
+    margin: 10px;
+}
+
+
+.lesson img {
+    width: 300px;
+}
+
+.lesson-details {
+    width: 100%;
+}
+
+.lesson-details > * {
+    margin: 0px 10px 10px 10px;
+
+    text-align: left;
+}

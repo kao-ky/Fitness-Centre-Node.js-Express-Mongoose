@@ -1,0 +1,44 @@
+.form-container {
+    margin: 150px auto;
+    width: 45%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-container * {
+    margin: 10px 0; 
+    text-align: center;
+}
+
+.credential {
+    height: 30px;
+    width: 60%;
+    margin: 5px auto;
+    padding: 5px 15px;
+}
+
+#alert-msg {
+    color: red;
+}
+
+.left-btn {
+    margin-right: 10px;
+    background-color: #4080F6;
+}
+
+.left-btn:hover {
+    background-color: #74A5FF;
+}
+
+.btn-container {
+    margin: 10px auto 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-container button {
+    width: 170px;
+}

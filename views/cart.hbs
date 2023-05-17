@@ -1,0 +1,43 @@
+<h2>Checkout</h2>
+
+<form id="checkout-form" class="form-container" method="POST">
+    <h3>CUSTOMER DETAILS</h3>
+    <input type="text" name="name" class="credential" placeholder="Enter name">
+    <input type="email" id="email" name="email" class="credential" placeholder="* Login Required *" value="{{email}}" required disabled>
+    
+    {{#if subscription}}
+        <div id="membership-status">
+            <img src="/images/verified.png" alt="Verified">
+            <h4>VERIFIED MEMBER</h4>
+        </div>
+    {{/if}}
+
+    <h3>YOUR LESSONS</h3>
+        {{#each lessonList}}
+            {{> cartItem}}
+        {{/each}}
+    <hr>
+
+    <table>
+        <tr>
+            <th>Subtotal:</th>
+            <td>{{ subtotal }}</td>
+        </tr>
+        <tr>
+            <th>Tax:</th>
+            <td>{{ tax }}</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table>
+        <tr>
+            <th>Total:</th>
+            <td>{{ total }}</td>
+        </tr>
+    </table>
+
+    <div id="btn-container">
+        <button formaction="/checkout">Pay</button>
+    </div>
+</form>

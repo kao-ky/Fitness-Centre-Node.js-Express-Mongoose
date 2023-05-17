@@ -1,0 +1,97 @@
+/* Header */
+
+header h1{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    letter-spacing: 5px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header nav {
+    padding: 5px 0;
+}
+
+header ul a {
+    font-size: 1.1em;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(251, 255, 202);
+}
+
+/* footer */
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+footer p {
+    letter-spacing: 3px;
+}
+
+footer img{
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+footer span {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+/* Generic */
+
+header, footer {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+button {
+    background: #0E7734;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px 14px;
+}
+
+button:hover {
+    background-color: #239c4b;
+    cursor: pointer;
+    color: white;
+}
+
+button:active {
+    opacity: .5;
+}

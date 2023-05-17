@@ -1,0 +1,10 @@
+<article class="lesson">
+    <img src="{{image}}" />
+    <div class="lesson-details">
+        <h1>{{lesson_name}} with {{instructor}}</h1>
+        <p>{{duration_min}} MIN</p>
+        <form action="cart/{{ _id}}" method="POST">
+            <button class="button">BOOK NOW</button>
+        </form>
+    </div>
+</article>
